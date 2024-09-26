@@ -5,8 +5,7 @@ A Node.js-based email client core system connecting to Outlook and managing emai
 ## Setup Instructions
 
 1. Clone the repository.
-2. Run `db.sql` file in the root directory.
-3. Update the required environment variables in `.env` file in the root directory.
+2. Update the required environment variables in `.env` file in the root directory.
 4. Run `docker-compose up --build` to start the application.
 5. Access the application at `http://localhost:3000`.
 

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emails</title>
+</head>
+<body>
+  <h1>Your Emails</h1>
+  <ul>
+    <% emails.forEach(function(email) { %>
+      <li>
+        <strong><%= email.subject %></strong> from <%= email.sender %>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
